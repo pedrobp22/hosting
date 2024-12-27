@@ -1,53 +1,49 @@
+/* Fondo negro y texto blanco */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 /* Estilo para el encabezado */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
+    background-color: #ff9900; /* Naranja para destacar */
+    padding: 20px;
     text-align: center;
 }
 
-/* Estilo para el contenido principal */
-.main-content {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Títulos */
-h1, h2 {
-    color: #333;
-}
-
-/* Estilo para los párrafos */
-p {
-    color: #555;
-    line-height: 1.6;
-}
-
-/* Estilo para los elementos de la lista */
-ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
-    padding-left: 0; /* Elimina el margen izquierdo */
-}
-
-li {
-    color: #555; /* Color de texto para los elementos de la lista */
-    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
-}
-
-/* Estilo para los botones */
-button {
-    background-color: #4CAF50;
+/* Estilo para el título */
+h1 {
     color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
 }
 
-/* Estilo cuando el cursor pasa sobre el botón */
-button:hover {
-    background-color: #45a049;
+/* Estilo para la sección de contenido */
+#introduction {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Contenedor del texto con borde */
+.content-left {
+    background-color: white;
+    color: black;
+    padding: 15px;
+    width: 60%; /* Ajusta el tamaño según necesidad */
+    border-radius: 10px;
+}
+
+/* Estilo para la imagen a la derecha */
+.content-right {
+    width: 35%; /* Ajusta el tamaño según necesidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-right img {
+    width: 100%;
+    border-radius: 10px;
 }
