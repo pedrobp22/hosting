@@ -1,75 +1,72 @@
-/* Estilo general */
-body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4; /* Fondo general claro */
-    color: #333;
-}
-
 /* Encabezado */
 header {
     background-color: #333; /* Fondo oscuro */
     color: #f1f1f1; /* Texto claro */
-    padding: 10px 0;
+    padding: 20px; /* Espaciado alrededor del texto */
     text-align: center;
 }
 
+header h1 {
+    margin: 0; /* Elimina márgenes por defecto */
+    font-size: 2.5em; /* Tamaño del título */
+    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
+}
+
 /* Contenido principal */
-.main-content {
+main {
     margin: 20px;
     padding: 20px;
-    background-color: white; /* Fondo blanco para el contenido */
-    border-radius: 8px;
+    background-color: white; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
-/* Títulos */
-h1 {
-    font-size: 2em;
-    margin: 0;
+/* Secciones */
+section {
+    margin-bottom: 20px; /* Separación entre secciones */
 }
 
-h2 {
-    color: #4CAF50; /* Verde para los subtítulos */
-    font-size: 1.5em;
-    margin-bottom: 10px;
+section h2 {
+    color: #333; /* Color de los subtítulos */
+    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
 }
 
-/* Párrafos */
-p {
-    color: #555; /* Texto más claro */
-    line-height: 1.6;
-    margin: 10px 0;
+section p {
+    color: #555; /* Color del texto */
+    line-height: 1.6; /* Espaciado entre líneas */
 }
 
 /* Lista */
 ul {
-    list-style-type: disc;
-    margin: 10px 20px;
+    list-style-type: disc; /* Estilo de los puntos */
+    padding-left: 20px; /* Sangría para la lista */
 }
 
-li {
-    margin: 5px 0;
+ul li {
+    margin-bottom: 10px; /* Espaciado entre elementos */
 }
 
-/* Elementos interactivos */
-.clickable {
-    cursor: pointer;
-    color: #4CAF50;
-    text-decoration: underline;
+ul li span.clickable {
+    color: #007BFF; /* Color para resaltar */
+    cursor: pointer; /* Cursor de clic */
+}
+
+ul li span.clickable:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
 }
 
 /* Botones */
 button {
-    background-color: #4CAF50; /* Verde */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
+    background-color: #4CAF50; /* Fondo verde */
+    color: white; /* Texto blanco */
+    border: none; /* Sin bordes */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
 }
 
 button:hover {
-    background-color: #45a049; /* Verde oscuro al pasar el ratón */
+    background-color: #45a049; /* Cambio de color al pasar el cursor */
 }
