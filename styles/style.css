@@ -1,6 +1,16 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Fondo general claro */
+    color: #333;
+}
+
+/* Encabezado */
 header {
-    background-color: #333;
-    color: white;
+    background-color: #333; /* Fondo oscuro */
+    color: #f1f1f1; /* Texto claro */
     padding: 10px 0;
     text-align: center;
 }
@@ -9,25 +19,50 @@ header {
 .main-content {
     margin: 20px;
     padding: 20px;
-    background-color: white;
+    background-color: white; /* Fondo blanco para el contenido */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
 /* Títulos */
-h1, h2 {
-    color: #333;
+h1 {
+    font-size: 2em;
+    margin: 0;
 }
 
+h2 {
+    color: #4CAF50; /* Verde para los subtítulos */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
 
+/* Párrafos */
 p {
-    color: #555;
+    color: #555; /* Texto más claro */
     line-height: 1.6;
+    margin: 10px 0;
 }
 
+/* Lista */
+ul {
+    list-style-type: disc;
+    margin: 10px 20px;
+}
 
+li {
+    margin: 5px 0;
+}
+
+/* Elementos interactivos */
+.clickable {
+    cursor: pointer;
+    color: #4CAF50;
+    text-decoration: underline;
+}
+
+/* Botones */
 button {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Verde */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -36,5 +71,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #45a049; /* Verde oscuro al pasar el ratón */
 }
