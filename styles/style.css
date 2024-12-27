@@ -1,72 +1,53 @@
-/* Encabezado */
+/* Estilo para el encabezado */
 header {
-    background-color: #333; /* Fondo oscuro */
-    color: #f1f1f1; /* Texto claro */
-    padding: 20px; /* Espaciado alrededor del texto */
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
-header h1 {
-    margin: 0; /* Elimina márgenes por defecto */
-    font-size: 2.5em; /* Tamaño del título */
-    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
-}
-
-/* Contenido principal */
-main {
+/* Estilo para el contenido principal */
+.main-content {
     margin: 20px;
     padding: 20px;
-    background-color: white; /* Fondo blanco */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Secciones */
-section {
-    margin-bottom: 20px; /* Separación entre secciones */
+/* Títulos */
+h1, h2 {
+    color: #333;
 }
 
-section h2 {
-    color: #333; /* Color de los subtítulos */
-    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
-    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+/* Estilo para los párrafos */
+p {
+    color: #555;
+    line-height: 1.6;
 }
 
-section p {
-    color: #555; /* Color del texto */
-    line-height: 1.6; /* Espaciado entre líneas */
-}
-
-/* Lista */
+/* Estilo para los elementos de la lista */
 ul {
-    list-style-type: disc; /* Estilo de los puntos */
-    padding-left: 20px; /* Sangría para la lista */
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding-left: 0; /* Elimina el margen izquierdo */
 }
 
-ul li {
-    margin-bottom: 10px; /* Espaciado entre elementos */
+li {
+    color: #555; /* Color de texto para los elementos de la lista */
+    margin-bottom: 10px; /* Espaciado entre los elementos de la lista */
 }
 
-ul li span.clickable {
-    color: #007BFF; /* Color para resaltar */
-    cursor: pointer; /* Cursor de clic */
-}
-
-ul li span.clickable:hover {
-    text-decoration: underline; /* Subrayado al pasar el cursor */
-}
-
-/* Botones */
+/* Estilo para los botones */
 button {
-    background-color: #4CAF50; /* Fondo verde */
-    color: white; /* Texto blanco */
-    border: none; /* Sin bordes */
-    padding: 10px 20px; /* Espaciado interno */
-    cursor: pointer; /* Cambia el cursor al pasar */
-    border-radius: 5px; /* Bordes redondeados */
-    font-family: 'Roboto', sans-serif; /* Fuente personalizada */
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
+/* Estilo cuando el cursor pasa sobre el botón */
 button:hover {
-    background-color: #45a049; /* Cambio de color al pasar el cursor */
+    background-color: #45a049;
 }
