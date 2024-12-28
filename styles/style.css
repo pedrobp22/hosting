@@ -1,6 +1,6 @@
 /* General */
 body {
-    background-color: #3664b0; /* Azul oscuro moderado */
+    background-color: #f8f8f8; 
     color: white;
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -9,8 +9,8 @@ body {
 
 /* Header */
 header {
-    background-color: #24497d; /* Azul más oscuro para el contraste */
-    color: #ffcc00; /* Amarillo suave que resalta */
+    background-color: #f8f9fa;
+    color: #333333; 
     text-align: center;
     padding: 20px 0;
     font-size: 18px;
@@ -29,7 +29,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #75a7f9; /* Azul claro */
+    background-color: #f8f9fa; /* Azul claro */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
@@ -111,4 +111,3 @@ button {
 button:hover {
     background-color: #1b375e;
 }
-
