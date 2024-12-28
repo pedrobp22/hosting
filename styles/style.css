@@ -27,16 +27,36 @@ header {
 
 /* Section styles */
 #introduction {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    display: flex ;
+    flex-direction: row ;
+    align-items: flex-start ;
     background-color: white; 
     padding: 20px;
     border-radius: 35px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-bottom: 20px;
     max-width:900px;
-    width: 160%; /* Adaptación al contenedor */
+    width: 200%; /* Adaptación al contenedor */
+}
+
+#proteina-p53, #p53-relacion-cancer {
+    display: flex;
+    flex-direction: column; /* Cambiar de row a column */
+    align-items: flex-start;
+    background-color: white; 
+    padding: 15px; /* Espaciado dentro del cuadro */
+    margin-bottom: 20px; /* Espaciado entre los cuadros */
+    border-radius: 8px; /* Bordes redondeados */
+    max-width: 900px;
+    width: 102%; /* Adaptación al contenedor */
+}
+
+#p53-relacion-cancer {
+    background-color: #f5a623; 
+}
+
+#proteina-p53 {
+    width: 200%;
 }
 
 /* Left content */
@@ -74,6 +94,8 @@ p {
     max-width: 900px;
     width: 100%;
 }
+
+
 
 button:hover {
     background-color: #357ABD; /* Azul más oscuro */
