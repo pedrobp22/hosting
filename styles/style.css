@@ -1,19 +1,20 @@
-/* General */
 body {
-    background-color: #f8f8f8; 
-    color: white;
-    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4; /* Gris muy claro */
+    color: #333333; /* Gris oscuro para texto */
+    font-family: 'Lato', sans-serif; /* Fuente moderna y limpia */
     margin: 0;
     padding: 0;
 }
 
 /* Header */
 header {
-    background-color: #f8f9fa;
-    color: #333333; 
+    background-color: #2d2d2d; /* Gris oscuro */
+    color: #e0e0e0; /* Gris claro para contraste */
     text-align: center;
-    padding: 20px 0;
-    font-size: 18px;
+    padding: 13px 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 30px;
 }
 
 /* Main content */
@@ -21,7 +22,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 22px;
 }
 
 /* Section styles */
@@ -29,13 +30,13 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #f8f9fa; /* Azul claro */
+    background-color: white; 
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    border-radius: 35px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
     margin-bottom: 20px;
-    max-width: 900px;
-    width: 100%; /* Adaptación al contenedor */
+    max-width:900px;
+    width: 160%; /* Adaptación al contenedor */
 }
 
 /* Left content */
@@ -53,62 +54,27 @@ header {
 
 /* Section text */
 h2 {
-    color: #24497d; /* Azul oscuro para contraste con el fondo claro */
+    color: #333333; /* Gris oscuro */
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
 p {
-    color: #fff;
+    color: #555555; /* Gris medio */
     line-height: 1.6;
 }
 
 /* Cancer relation section */
 #cancer-relation {
-    background-color: #f34c33; /* Rojo claro */
+    background-color: #f5a623; /* Naranja suave */
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     max-width: 900px;
     width: 100%;
-}
-
-/* Cancer characteristics */
-#cell-characteristics {
-    background-color: #75a7f9; /* Azul claro */
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    max-width: 900px;
-    width: 100%;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    background-color: #f34c33; /* Rojo claro */
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 5px;
-    color: #fff;
-}
-
-/* Buttons (if needed later) */
-button {
-    background-color: #24497d; /* Azul más oscuro */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 1em;
 }
 
 button:hover {
-    background-color: #1b375e;
+    background-color: #357ABD; /* Azul más oscuro */
 }
-
