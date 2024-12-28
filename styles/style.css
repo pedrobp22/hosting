@@ -29,7 +29,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #75a7f9; /* Azul claro */
+    background-color: #f8f9fa; /* Azul claro */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra sutil */
